@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const data = <p>"Hello React"</p>;
 ReactDOM.render(
   <React.StrictMode>
     <App />
