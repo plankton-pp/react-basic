@@ -3,8 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
-const data = <p>"Hello React"</p>;
+import NavBarComponent from './components/NavBar/NavBarComponent';
+ReactDOM.render(
+  <React.StrictMode>
+    <NavBarComponent/>
+  </React.StrictMode>,
+  document.getElementById('navbar')
+);
 ReactDOM.render(
   <React.StrictMode>
     <App />
